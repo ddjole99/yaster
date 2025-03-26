@@ -1,6 +1,7 @@
 <?php
 require "dbBroker.php";
 require "model/user.php";
+require "model/prijava.php";
 
 session_start();
 if (isset($_POST["username"]) && isset($_POST["password"])) {
